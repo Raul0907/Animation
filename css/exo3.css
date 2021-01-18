@@ -1,0 +1,59 @@
+
+.Page {
+  width: 800px;
+  height: 600px;
+  border-radius: 20px;
+  border: black solid 1px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+.ball {
+  background-color: black;
+  margin-top:250px ;
+  display: flex;
+  width: 80px;
+  height: 80px;
+  border: black solid 1px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+}
+.ball1 {
+  animation-name: charging;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-duration: 6s;
+  animation-direction: alternate;
+}
+.ball2 {
+  animation-name: charging;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-duration: 6s;
+  animation-direction: alternate;
+}
+.ball3 {
+  animation-name: charging;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  animation-duration: 6s;
+  animation-direction: alternate;
+}
+  
+@keyframes charging {
+  from {
+      background-color: black;
+  }
+  to {
+      background-color: whitesmoke;
+  }
+}
+a{
+  color: red;
+  margin-left:300px
+}

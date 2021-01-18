@@ -1,0 +1,41 @@
+#ball{
+    border: dashed 2px green;
+    height: 400px;
+    width: 400px;
+    margin: 25px;
+}
+.jumpingball{
+    margin: 25px;
+    border: solid 2px yellow;
+    height: 300px;
+    width: 50px;
+    margin-left:175px;
+   
+}
+.ballon{
+    background-color: black;
+    position: relative;
+    top: 0px;
+    border: solid 2px black;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    animation: bouncing 4s infinite;
+}
+@keyframes bouncing{
+   0% { top: 0px; }
+   10%{ top: 250px;}
+   20%{ top: 150px;}
+   30%{ top: 250px;}
+   40%{ top: 175px;}
+   50%{ top: 250px;}
+   60%{ top: 200px;}
+   70%{ top: 250px;}
+   80%{ top: 225px;}
+   90%{top: 250px;}
+   100% { top: 250px; }
+}
+a{
+    color: red;
+    margin-left:150px
+}

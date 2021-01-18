@@ -1,0 +1,33 @@
+.menu{
+    border: 1px black solid;
+    border-radius: 15px;
+    width: 150px;
+    height: 80px;
+    background-color: #2060b4;
+    list-style: none;
+    text-decoration: none;
+    overflow: hidden;
+    transition: height 3s;
+}
+
+a{
+    list-style: none;
+    animation: afficher 3s;
+    color: white;
+}
+
+li{
+    list-style-type:none;
+    text-transform: uppercase;
+    text-size-adjust: 25px;
+    padding-top: 15px;
+}
+a:hover{
+    color: red;
+    
+}
+.menu:hover{
+    height: 400px;
+
+}
+
